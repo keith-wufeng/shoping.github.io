@@ -47,6 +47,48 @@
 }
 /* header头部模块制作 */
 .header {
+	position: relative;
 	height: 105px;
 	background-color: pink;
+}
+.logo {
+	position: absolute;
+	top: 25px;
+	width: 171px;
+	height: 61px;
+	background-color: blue;
+}
+.logo a {
+	display: block;
+	width: 171px;
+	height: 61px;
+	background: url(../images/logo.png) no-repeat;
+	/* 京东做法：文字隐藏 */
+	/* font-size: 0; */
+	/* 淘宝做法：文字隐藏 */
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.search {
+	position: absolute;
+	top: 25px;
+	left: 346px;
+	width: 538px;
+	height: 36px;
+	border: 2px solid #b1191a;
+}
+.search input {
+	/* 解决行内块元素中间的缝隙加上做浮动 */
+	float: left;
+	width: 454px;
+	height: 32px;
+	padding-left: 10px;
+}
+.search button {
+	float: left;
+	width: 80px;
+	height: 32px;
+	background-color: #b1191b;
+	font-size: 16px;
+	color: #fff;
 }
