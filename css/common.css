@@ -1,15 +1,15 @@
 /* 声明字体图标 */
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?pvu51a');
-  src:  url('../fonts/icomoon.eot?pvu51a#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?pvu51a') format('truetype'),
-    url('../fonts/icomoon.woff?pvu51a') format('woff'),
-    url('../fonts/icomoon.svg?pvu51a#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon.eot?tomleg');
+	src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+	  url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+	  url('../fonts/icomoon.woff?tomleg') format('woff'),
+	  url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
 /* 版心 */
 .w {
     width: 1200px;
@@ -40,7 +40,7 @@
 	margin: 9px 15px 0;
 }
 .arrow-icon::after {
-	content: '\e900';
+	content: '\e91e';
 	font-family: 'icomoon';
 	margin-left: 6px;
 
@@ -49,14 +49,12 @@
 .header {
 	position: relative;
 	height: 105px;
-	background-color: pink;
 }
 .logo {
 	position: absolute;
 	top: 25px;
 	width: 171px;
 	height: 61px;
-	background-color: blue;
 }
 .logo a {
 	display: block;
@@ -91,4 +89,45 @@
 	background-color: #b1191b;
 	font-size: 16px;
 	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 66px;
+	left: 346px;
+}
+.hotwords a {
+	margin: 0 10px;
+}
+.shopcar {
+	position: absolute;
+	right: 60px;
+	top: 25px;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: 1px solid #dfdfdf;
+	background-color: #f7f7f7;
+}
+.shopcar::before {
+	content: '\e93a';
+	font-family: 'icomoon';
+	margin-right: 5px;
+	color: #b1191a;
+}
+.shopcar::after {
+	content: '\e920';
+	font-family: 'icomoon';
+	margin-left: 10px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 105px;
+	height: 14px;
+	line-height: 14px;
+	color: #fff;
+	background-color: #e60012;
+	padding: 0 5px;
+	border-radius: 7px 7px 7px 0;
 }
