@@ -159,6 +159,7 @@
 	background-color: #c81623;
 }
 .dropdown .dd ul li {
+	position: relative;
 	height: 31px;
 	line-height: 31px;
 	margin-left: 2px;
@@ -166,6 +167,15 @@
 }
 .dropdown .dd ul li:hover {
 	background-color: #fff;
+}
+.dropdown .dd ul li::after {
+	position: absolute;
+	top: 1px;
+	right: 10px;
+	color: #fff;
+	content: '\e920';
+	font-family: 'icomoon';
+	font-size: 14px;
 }
 .dropdown .dd ul li a {
 	font-size: 14px;
